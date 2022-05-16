@@ -3,16 +3,19 @@ version: "3.9"
 services:
 
   perlite:
-    image: sec77/perlite:latest
+    build:
+      context: ./perlite
     container_name: perlite
    
     environment:
-      - NOTES_PATH=Demo
+      - NOTES_PATH=Znanje
       - HIDE_FOLDERS=docs,private,trash
 
     volumes:
-      - ./Demo:/var/www/perlite/Demo:ro
-    restart: unless-stopped
+      - /mnt/twofiddy/data/znanje/:/var/www/perlite/Znanje:ro
+    networks:
+        External:
+            ipv4_address: 192.168.100.8
 
   web:
     build:
@@ -24,7 +27,13 @@ services:
       - perlite       
     depends_on:
       - perlite
-    restart: unless-stopped
+    networks:
+        External:
+            ipv4_address: 192.168.100.7
+
 
   
-
+networks:
+  External:
+    name: external_net
+    external: true
