@@ -12,6 +12,7 @@ services:
 
     volumes:
       - ./Demo:/var/www/perlite/Demo:ro
+    restart: unless-stopped
 
   web:
     build:
@@ -23,6 +24,7 @@ services:
       - perlite       
     depends_on:
       - perlite
+    restart: unless-stopped
 
   
 

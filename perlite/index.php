@@ -44,9 +44,10 @@
                     <a href="."><img src="logo.svg" height="35" class="me-3" alt="Perlite Logo"></a>
 
                     <ul class="navbar-nav col-12 col-lg-auto me-lg-auto mb-md-0">
-                        <li class="nav-item px-2"><a class="nav-link" href="https://secure77.de" target="_blank"
-                                rel="noopener noreferrer">Blog</a></li>
-                        <li class="nav-item px-2"><a class="nav-link" id="about" href="#">About</a></li>
+                        <li class="nav-item px-2"><a class="nav-link" href="https://www.buymeacoffee.com/lovrog05" target="_blank"
+                                rel="noopener noreferrer"><img src="https://uc80e5ba3058c2d15b2a77972a8b.previews.dropboxusercontent.com/p/thumb/ABgDQOwzd5_vCoRgj5IhvR-FAb1iHnnyhGG6qZUSlPaDNfy4ywM04VzLW64HuBn0j5IEQ_239UXMYS-9Mswc7wU914E9uVTmIBa6sEHBEshTnM9fbzQ3TxKFbzyv7ZXTdTfP08hEiTMoKOCOs7KycucpWVhQgdv7CFiOiftik16ft87BTrCATzzA_HZ-CJ7XyKXxX6p9WV_ldNNXfAEXR7Ldh_C6BUhL3G7Urby2tm88Y6xo-eDnmesauccdVeX4KFUyqwIrxSHWUGgx_Bn1wSqGrpZt0frOPpUnO8rBZn7L-M2TTNi9OQXkruJEls6c5YxwSSO0nzwn03farIY86z3AMiqcym24PZOrmIdSlKQqnYVEfgww64GPzGxv1bI2QFk/p.png" height="35" alt="Buy me a coffe"></a></li>
+                        <li class="nav-item px-2"><a class="nav-link" id="about" href="https://perchperkins.ml">About me</a></li>
+                        <li class="nav-item px-2"><a class="nav-link" id="about" href="https://github.com/LovroG05/znanje">Repository</a></li>
                     </ul>
                     <div class="no-mobile me-lg-5">
                         <li class="blockquote-footer perlite-bread text-info mdTitle">/</li>
