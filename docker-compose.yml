@@ -12,6 +12,7 @@ services:
       - HIDE_FOLDERS=docs,private,trash
 
     volumes:
+      - ./perlite:/var/www/perlite
       - /mnt/twofiddy/data/znanje/:/var/www/perlite/Znanje:ro
     networks:
         External:
