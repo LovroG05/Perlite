@@ -31,6 +31,9 @@
     <script src=".js/auto-render.min.js"></script>
     <script src=".js/mermaid.min.js"></script>
 
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2110778664047770"
+     crossorigin="anonymous"></script>
+
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
@@ -72,7 +75,7 @@
 
 include('helper.php');
 
-$title = 'Perlite';
+$title = 'Znanje';
 $menu = menu($rootDir);
 $jsonGraphData = getfullGraph($rootDir);
 
